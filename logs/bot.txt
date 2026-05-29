@@ -1,0 +1,210 @@
+2026-05-28 22:16:38 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:16:38 | INFO     | rpa_bot                      | Starting RPA Bot
+2026-05-28 22:16:38 | INFO     | rpa_bot                      | RPA folder   : C:\RPAs
+2026-05-28 22:16:38 | INFO     | rpa_bot                      | UiRobot path : C:\Program Files\UiPathPlatform\Studio\26.0.193-cloud.23060\UiRobot.exe
+2026-05-28 22:16:38 | INFO     | rpa_bot                      | Max queue    : 10
+2026-05-28 22:16:38 | INFO     | rpa_bot                      | Log level    : INFO
+2026-05-28 22:16:38 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:16:39 | INFO     | rpa_bot.handler              | Handlers registered
+2026-05-28 22:16:39 | INFO     | rpa_bot                      | Press Ctrl+C to stop
+2026-05-28 22:16:40 | INFO     | rpa_bot.rpa_service          | RPA worker started (max_queue=10)
+2026-05-28 22:16:40 | INFO     | rpa_bot                      | Bot is up and polling for messages
+2026-05-28 22:16:41 | WARNING  | rpa_bot.handler              | Unauthorized access attempt — user='Samuel' id=8235194237
+2026-05-28 22:21:28 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:21:28 | INFO     | rpa_bot                      | Starting RPA Bot
+2026-05-28 22:21:28 | INFO     | rpa_bot                      | RPA folder   : C:\RPAs
+2026-05-28 22:21:28 | INFO     | rpa_bot                      | UiRobot path : C:\Program Files\UiPathPlatform\Studio\26.0.193-cloud.23060\UiRobot.exe
+2026-05-28 22:21:28 | INFO     | rpa_bot                      | Max queue    : 10
+2026-05-28 22:21:28 | INFO     | rpa_bot                      | Log level    : INFO
+2026-05-28 22:21:28 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:21:28 | INFO     | rpa_bot.handler              | Handlers registered
+2026-05-28 22:21:28 | INFO     | rpa_bot                      | Press Ctrl+C to stop
+2026-05-28 22:21:29 | INFO     | rpa_bot.rpa_service          | RPA worker started (max_queue=10)
+2026-05-28 22:21:29 | INFO     | rpa_bot                      | Bot is up and polling for messages
+2026-05-28 22:24:38 | WARNING  | rpa_bot.handler              | Unauthorized access attempt — user='Samuel' id=8235194237
+2026-05-28 22:25:20 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:25:20 | INFO     | rpa_bot                      | Starting RPA Bot
+2026-05-28 22:25:20 | INFO     | rpa_bot                      | RPA folder   : C:\RPAs
+2026-05-28 22:25:20 | INFO     | rpa_bot                      | UiRobot path : C:\Program Files\UiPathPlatform\Studio\26.0.193-cloud.23060\UiRobot.exe
+2026-05-28 22:25:20 | INFO     | rpa_bot                      | Max queue    : 10
+2026-05-28 22:25:20 | INFO     | rpa_bot                      | Log level    : INFO
+2026-05-28 22:25:20 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:25:20 | INFO     | rpa_bot.handler              | Handlers registered
+2026-05-28 22:25:20 | INFO     | rpa_bot                      | Press Ctrl+C to stop
+2026-05-28 22:25:21 | INFO     | rpa_bot.rpa_service          | RPA worker started (max_queue=10)
+2026-05-28 22:25:21 | INFO     | rpa_bot                      | Bot is up and polling for messages
+2026-05-28 22:25:27 | WARNING  | rpa_bot.handler              | Unauthorized access attempt — user='Samuel' id=8235194237
+2026-05-28 22:29:51 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:29:51 | INFO     | rpa_bot                      | Starting RPA Bot
+2026-05-28 22:29:51 | INFO     | rpa_bot                      | RPA folder   : C:\RPAs
+2026-05-28 22:29:51 | INFO     | rpa_bot                      | UiRobot path : C:\Program Files\UiPathPlatform\Studio\26.0.193-cloud.23060\UiRobot.exe
+2026-05-28 22:29:51 | INFO     | rpa_bot                      | Max queue    : 10
+2026-05-28 22:29:51 | INFO     | rpa_bot                      | Log level    : INFO
+2026-05-28 22:29:51 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:29:52 | INFO     | rpa_bot.handler              | Handlers registered
+2026-05-28 22:29:52 | INFO     | rpa_bot                      | Press Ctrl+C to stop
+2026-05-28 22:29:53 | INFO     | rpa_bot.rpa_service          | RPA worker started (max_queue=10)
+2026-05-28 22:29:53 | INFO     | rpa_bot                      | Bot is up and polling for messages
+2026-05-28 22:30:11 | ERROR    | rpa_bot.repository           | RPA folder does not exist: C:\RPAs
+2026-05-28 22:30:12 | INFO     | rpa_bot.handler              | Menu sent to 'Samuel Villanueva' (0 processes)
+2026-05-28 22:30:34 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:30:34 | INFO     | rpa_bot                      | Starting RPA Bot
+2026-05-28 22:30:34 | INFO     | rpa_bot                      | RPA folder   : RPAs
+2026-05-28 22:30:34 | INFO     | rpa_bot                      | UiRobot path : C:\Program Files\UiPathPlatform\Studio\26.0.193-cloud.23060\UiRobot.exe
+2026-05-28 22:30:34 | INFO     | rpa_bot                      | Max queue    : 10
+2026-05-28 22:30:34 | INFO     | rpa_bot                      | Log level    : INFO
+2026-05-28 22:30:34 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:30:34 | INFO     | rpa_bot.handler              | Handlers registered
+2026-05-28 22:30:34 | INFO     | rpa_bot                      | Press Ctrl+C to stop
+2026-05-28 22:30:35 | INFO     | rpa_bot.rpa_service          | RPA worker started (max_queue=10)
+2026-05-28 22:30:35 | INFO     | rpa_bot                      | Bot is up and polling for messages
+2026-05-28 22:30:38 | INFO     | rpa_bot.repository           | Loaded 1 RPA process(es) from 'RPAs'
+2026-05-28 22:30:38 | INFO     | rpa_bot.handler              | Menu sent to 'Samuel Villanueva' (1 processes)
+2026-05-28 22:30:42 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Samuel Villanueva' — queue size: 1/10
+2026-05-28 22:30:42 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Samuel Villanueva'
+2026-05-28 22:30:42 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Samuel Villanueva'
+2026-05-28 22:30:51 | ERROR    | rpa_bot.rpa_service          | Process 'TestingProcess' exited with code 4294967295.
+Output:
+It is not possible to run UiPath Studio windows or cross-platform projects using the Robot CLI -f parameter. You can only run windows or cross-platform published packages (.nupkg).
+2026-05-28 22:30:51 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=False
+2026-05-28 22:34:50 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:34:50 | INFO     | rpa_bot                      | Starting RPA Bot
+2026-05-28 22:34:50 | INFO     | rpa_bot                      | RPA folder   : RPAs
+2026-05-28 22:34:50 | INFO     | rpa_bot                      | UiRobot path : C:\Program Files\UiPathPlatform\Studio\26.0.193-cloud.23060\UiRobot.exe
+2026-05-28 22:34:50 | INFO     | rpa_bot                      | Max queue    : 10
+2026-05-28 22:34:50 | INFO     | rpa_bot                      | Log level    : INFO
+2026-05-28 22:34:50 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:34:51 | INFO     | rpa_bot.handler              | Handlers registered
+2026-05-28 22:34:51 | INFO     | rpa_bot                      | Press Ctrl+C to stop
+2026-05-28 22:34:52 | INFO     | rpa_bot.rpa_service          | RPA worker started (max_queue=10)
+2026-05-28 22:34:52 | INFO     | rpa_bot                      | Bot is up and polling for messages
+2026-05-28 22:36:36 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:36:36 | INFO     | rpa_bot                      | Starting RPA Bot
+2026-05-28 22:36:36 | INFO     | rpa_bot                      | RPA folder   : RPAs
+2026-05-28 22:36:36 | INFO     | rpa_bot                      | UiRobot path : C:\Program Files\UiPathPlatform\Studio\26.0.193-cloud.23060\UiRobot.exe
+2026-05-28 22:36:36 | INFO     | rpa_bot                      | Max queue    : 10
+2026-05-28 22:36:36 | INFO     | rpa_bot                      | Log level    : INFO
+2026-05-28 22:36:36 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:36:37 | INFO     | rpa_bot.handler              | Handlers registered
+2026-05-28 22:36:37 | INFO     | rpa_bot                      | Press Ctrl+C to stop
+2026-05-28 22:36:38 | INFO     | rpa_bot.rpa_service          | RPA worker started (max_queue=10)
+2026-05-28 22:36:38 | INFO     | rpa_bot                      | Bot is up and polling for messages
+2026-05-28 22:36:42 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 22:36:42 | INFO     | rpa_bot.handler              | Menu sent to 'Samuel Villanueva' (1 processes)
+2026-05-28 22:36:45 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Samuel Villanueva' — queue size: 1/10
+2026-05-28 22:36:45 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Samuel Villanueva'
+2026-05-28 22:36:45 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Samuel Villanueva'
+2026-05-28 22:36:46 | ERROR    | rpa_bot.rpa_service          | Process 'TestingProcess' exited with code 4294967295.
+Output:
+UiRobot 26.0.193-cloud.23060+Branch.release-s193.Sha.f173c8209903a790afd3348aefcaae782313e88c.f173c8209903a790afd3348aefcaae782313e88c
+� UiPath
+
+ERROR(S):
+  Option 'package-path' is unknown.
+
+  -p, --package-id      Package Id of the process to execute (available version
+                        will be used).
+
+  -r, --process-name    Name of the process to execute.
+
+  -f, --file            Nupkg or legacy project/workflow file to execute.
+
+  -i, --input           Input parameters in JSON format.
+
+  --folder              The Orchestrator folder path.
+
+  --entry               The entry point path.
+
+  --help                Display this help screen.
+
+  --version             Display version information.
+
+  execute usage: UiRobot execute [--package-id <package_id> | --process-name <process_name> | --file <file_path>] [--input <input_params>] [--folder <folder_path>] [--entry <entry_point_path>]
+  Examples:
+	UiRobot execute --package-id UiPathDemo
+	UiRobot execute --package-id UiPathDemo --folder "Product/Development/QA"
+	UiRobot execute --process-name UiPathDemoProcess
+	UiRobot execute --file "C:\UiPath\Project\TestAutomation.1.0.3.nupkg" --entry "OtherEntryPoint.xaml"
+	UiRobot execute --input '{\"intArg\" : 3, \"strArg\" : \"hello\"}' (PowerShell usage)
+	UiRobot execute --input "{\"intArg\" : 3, \"strArg\" : \"hello\"}" (Command Prompt & Bash usage)
+2026-05-28 22:36:46 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=False
+2026-05-28 22:37:52 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:37:52 | INFO     | rpa_bot                      | Starting RPA Bot
+2026-05-28 22:37:52 | INFO     | rpa_bot                      | RPA folder   : RPAs
+2026-05-28 22:37:52 | INFO     | rpa_bot                      | UiRobot path : C:\Program Files\UiPathPlatform\Studio\26.0.193-cloud.23060\UiRobot.exe
+2026-05-28 22:37:52 | INFO     | rpa_bot                      | Max queue    : 10
+2026-05-28 22:37:52 | INFO     | rpa_bot                      | Log level    : INFO
+2026-05-28 22:37:52 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:37:53 | INFO     | rpa_bot.handler              | Handlers registered
+2026-05-28 22:37:53 | INFO     | rpa_bot                      | Press Ctrl+C to stop
+2026-05-28 22:37:54 | INFO     | rpa_bot.rpa_service          | RPA worker started (max_queue=10)
+2026-05-28 22:37:54 | INFO     | rpa_bot                      | Bot is up and polling for messages
+2026-05-28 22:37:55 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 22:37:56 | INFO     | rpa_bot.handler              | Menu sent to 'Samuel Villanueva' (1 processes)
+2026-05-28 22:37:58 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Samuel Villanueva' — queue size: 1/10
+2026-05-28 22:37:58 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Samuel Villanueva'
+2026-05-28 22:37:58 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Samuel Villanueva'
+2026-05-28 22:38:30 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=True
+2026-05-28 22:39:22 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 22:39:23 | INFO     | rpa_bot.handler              | Menu sent to 'Samuel Villanueva' (1 processes)
+2026-05-28 22:39:32 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Samuel Villanueva' — queue size: 1/10
+2026-05-28 22:39:32 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Samuel Villanueva'
+2026-05-28 22:39:33 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Samuel Villanueva'
+2026-05-28 22:39:43 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=True
+2026-05-28 22:39:59 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 22:40:00 | INFO     | rpa_bot.handler              | Menu sent to 'Samuel Villanueva' (1 processes)
+2026-05-28 22:40:03 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Samuel Villanueva' — queue size: 1/10
+2026-05-28 22:40:03 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Samuel Villanueva'
+2026-05-28 22:40:03 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Samuel Villanueva'
+2026-05-28 22:40:13 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=True
+2026-05-28 22:44:18 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:44:18 | INFO     | rpa_bot                      | Starting RPA Bot
+2026-05-28 22:44:18 | INFO     | rpa_bot                      | RPA folder   : RPAs
+2026-05-28 22:44:18 | INFO     | rpa_bot                      | UiRobot path : C:\Program Files\UiPathPlatform\Studio\26.0.193-cloud.23060\UiRobot.exe
+2026-05-28 22:44:18 | INFO     | rpa_bot                      | Max queue    : 10
+2026-05-28 22:44:18 | INFO     | rpa_bot                      | Log level    : INFO
+2026-05-28 22:44:18 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:44:19 | INFO     | rpa_bot.handler              | Handlers registered
+2026-05-28 22:44:19 | INFO     | rpa_bot                      | Press Ctrl+C to stop
+2026-05-28 22:44:20 | INFO     | rpa_bot.rpa_service          | RPA worker started (max_queue=10)
+2026-05-28 22:44:20 | INFO     | rpa_bot                      | Bot is up and polling for messages
+2026-05-28 22:44:25 | WARNING  | rpa_bot.handler              | Unauthorized access attempt — user='Jacky' id=2032428495
+2026-05-28 22:46:24 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:46:24 | INFO     | rpa_bot                      | Starting RPA Bot
+2026-05-28 22:46:24 | INFO     | rpa_bot                      | RPA folder   : RPAs
+2026-05-28 22:46:24 | INFO     | rpa_bot                      | UiRobot path : C:\Program Files\UiPathPlatform\Studio\26.0.193-cloud.23060\UiRobot.exe
+2026-05-28 22:46:24 | INFO     | rpa_bot                      | Max queue    : 10
+2026-05-28 22:46:24 | INFO     | rpa_bot                      | Log level    : INFO
+2026-05-28 22:46:24 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 22:46:25 | INFO     | rpa_bot.handler              | Handlers registered
+2026-05-28 22:46:25 | INFO     | rpa_bot                      | Press Ctrl+C to stop
+2026-05-28 22:46:26 | INFO     | rpa_bot.rpa_service          | RPA worker started (max_queue=10)
+2026-05-28 22:46:26 | INFO     | rpa_bot                      | Bot is up and polling for messages
+2026-05-28 22:46:39 | INFO     | rpa_bot.handler              | Phone verification requested for 'Samuel Villanueva' (chat_id=8235194237)
+2026-05-28 22:46:41 | INFO     | rpa_bot.handler              | Phone verification requested for 'Jacky B.P' (chat_id=2032428495)
+2026-05-28 22:46:48 | INFO     | rpa_bot.handler              | User 'Samuel Villanueva' verified with phone ***3474
+2026-05-28 22:46:52 | INFO     | rpa_bot.handler              | User 'Jacky B.P' verified with phone ***5989
+2026-05-28 22:47:00 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 22:47:01 | INFO     | rpa_bot.handler              | Menu sent to 'Jacky B.P' (1 processes)
+2026-05-28 22:47:17 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Jacky B.P' — queue size: 1/10
+2026-05-28 22:47:17 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Jacky B.P'
+2026-05-28 22:47:18 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Jacky B.P'
+2026-05-28 22:47:28 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=True
+2026-05-28 22:49:08 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 22:49:08 | INFO     | rpa_bot.handler              | Menu sent to 'Samuel Villanueva' (1 processes)
+2026-05-28 22:49:08 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 22:49:09 | INFO     | rpa_bot.handler              | Menu sent to 'Jacky B.P' (1 processes)
+2026-05-28 22:50:00 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Samuel Villanueva' — queue size: 1/10
+2026-05-28 22:50:00 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Samuel Villanueva'
+2026-05-28 22:50:00 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Samuel Villanueva'
+2026-05-28 22:50:01 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Jacky B.P' — queue size: 1/10
+2026-05-28 22:50:01 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Jacky B.P'
+2026-05-28 22:50:11 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=True
+2026-05-28 22:50:12 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Jacky B.P'
+2026-05-28 22:50:21 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=True
+2026-05-28 22:51:42 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 22:51:43 | INFO     | rpa_bot.handler              | Menu sent to 'Jacky B.P' (1 processes)
+2026-05-28 22:51:49 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Jacky B.P' — queue size: 1/10
+2026-05-28 22:51:49 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Jacky B.P'
+2026-05-28 22:51:49 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Jacky B.P'
+2026-05-28 22:51:58 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=True
