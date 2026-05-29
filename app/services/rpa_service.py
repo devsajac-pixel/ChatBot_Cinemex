@@ -28,7 +28,6 @@ class RpaService:
         max_queue_size: int,
     ) -> None:
         self._uirobot_exe = uirobot_exe
-        # Build arg list once: ["execute", "--file"] from "execute --file"
         self._uirobot_args: List[str] = uirobot_args.split()
         self._queue: asyncio.Queue[QueuedTask] = asyncio.Queue(maxsize=max_queue_size)
         self._current: Optional[QueuedTask] = None

@@ -234,50 +234,80 @@ class BotHandlers:
         session,
     ) -> None:
         shown = session.shown_processes
-        process = self._resolve_exact(text, shown)
+        stripped = text.strip()
 
-        if process is None:
-            matches = self._search_in(text, shown)
-
-            if not matches:
+        # --- Entrada numérica: solo búsqueda por índice, sin fallback fuzzy ---
+        if stripped.isdigit():
+            idx = int(stripped)
+            process = next((p for p in shown if p.index == idx), None)
+            if process is None:
                 await update.message.reply_text(  # type: ignore[union-attr]
-                    f"No encontré ningún proceso con <b>'{text}'</b>.\n"
+                    f"No existe el proceso número <b>{idx}</b>.\n"
                     "Escribe <b>menu</b> para ver la lista de procesos disponibles.",
                     parse_mode="HTML",
                 )
-                logger.info("No process matched '%s' for '%s'", text, session.username)
-                return
+                logger.info("Index %d not found for '%s'", idx, session.username)
+            else:
+                await self._enqueue_process(update, context, process)
+            return
 
-            if len(matches) > 1:
-                names = "\n".join(f"  {p.index}. {p.name}" for p in matches)
-                await update.message.reply_text(  # type: ignore[union-attr]
-                    f"Encontré <b>{len(matches)} procesos</b> que coinciden con "
-                    f"<b>'{text}'</b>:\n\n{names}\n\n"
-                    "Por favor sé más específico (escribe el número o el nombre exacto).",
-                    parse_mode="HTML",
-                )
-                return
+        # --- Entrada de texto: exacto primero, luego fuzzy ---
+        exact = next((p for p in shown if p.name.lower() == stripped.lower()), None)
+        if exact:
+            await self._enqueue_process(update, context, exact)
+            return
 
-            process = matches[0]
+        matches = self._fuzzy_search(stripped, shown)
 
+        if not matches:
+            await update.message.reply_text(  # type: ignore[union-attr]
+                f"No encontré ningún proceso con <b>'{stripped}'</b>.\n"
+                "Escribe <b>menu</b> para ver la lista de procesos disponibles.",
+                parse_mode="HTML",
+            )
+            logger.info("No fuzzy match for '%s' (user: '%s')", stripped, session.username)
+            return
+
+        if len(matches) > 1:
+            names = "\n".join(
+                f"  {p.index}. {p.name} <i>({score}%)</i>" for p, score in matches
+            )
+            await update.message.reply_text(  # type: ignore[union-attr]
+                f"Encontré <b>{len(matches)} procesos</b> que coinciden con "
+                f"<b>'{stripped}'</b>:\n\n{names}\n\n"
+                "Por favor sé más específico (número o nombre exacto).",
+                parse_mode="HTML",
+            )
+            logger.info(
+                "Ambiguous fuzzy query '%s' for '%s' — %d matches",
+                stripped, session.username, len(matches),
+            )
+            return
+
+        process, score = matches[0]
+        logger.info(
+            "Fuzzy match '%s' → '%s' (%d%%) for '%s'",
+            stripped, process.name, score, session.username,
+        )
         await self._enqueue_process(update, context, process)
 
-    @staticmethod
-    def _resolve_exact(text: str, processes: List[RpaProcess]) -> Optional[RpaProcess]:
-        stripped = text.strip()
-        if stripped.isdigit():
-            idx = int(stripped)
-            return next((p for p in processes if p.index == idx), None)
-        name_lower = stripped.lower()
-        return next((p for p in processes if p.name.lower() == name_lower), None)
+    def _fuzzy_search(
+        self, query: str, processes: List[RpaProcess]
+    ) -> List[tuple]:
+        """Returns list of (RpaProcess, score) sorted by score descending."""
+        from rapidfuzz import fuzz
 
-    @staticmethod
-    def _search_in(query: str, processes: List[RpaProcess]) -> List[RpaProcess]:
-        q = query.strip().lower()
-        return [
-            p for p in processes
-            if q in p.name.lower() or q in p.filename.lower()
-        ]
+        threshold = self._settings.fuzzy_threshold
+        q = query.lower()
+        results = []
+
+        for p in processes:
+            score = fuzz.ratio(q, p.name.lower())
+            if score >= threshold:
+                results.append((p, round(score)))
+
+        results.sort(key=lambda x: x[1], reverse=True)
+        return results
 
     # ------------------------------------------------------------------
     # Enqueue

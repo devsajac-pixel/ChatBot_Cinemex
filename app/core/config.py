@@ -31,6 +31,8 @@ class Settings(BaseSettings):
     # Bot behavior — raw comma-separated string for the same reason as allowed_users
     menu_keywords: str = "menu,menú,bots,robots,procesos,lista,inicio,ayuda,help"
     max_queue_size: int = 10
+    # Umbral de similitud para búsqueda fuzzy (0-100). 70 = 70% de coincidencia mínima
+    fuzzy_threshold: int = 70
 
     # ------------------------------------------------------------------
     # Parsed properties

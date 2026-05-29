@@ -208,3 +208,80 @@ ERROR(S):
 2026-05-28 22:51:49 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Jacky B.P'
 2026-05-28 22:51:49 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Jacky B.P'
 2026-05-28 22:51:58 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=True
+2026-05-28 23:21:52 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 23:21:52 | INFO     | rpa_bot                      | Starting RPA Bot
+2026-05-28 23:21:52 | INFO     | rpa_bot                      | RPA folder   : RPAs
+2026-05-28 23:21:52 | INFO     | rpa_bot                      | UiRobot path : C:\Program Files\UiPathPlatform\Studio\26.0.193-cloud.23060\UiRobot.exe
+2026-05-28 23:21:52 | INFO     | rpa_bot                      | Max queue    : 10
+2026-05-28 23:21:52 | INFO     | rpa_bot                      | Log level    : INFO
+2026-05-28 23:21:52 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 23:21:53 | INFO     | rpa_bot.handler              | Handlers registered
+2026-05-28 23:21:53 | INFO     | rpa_bot                      | Press Ctrl+C to stop
+2026-05-28 23:21:54 | INFO     | rpa_bot.rpa_service          | RPA worker started (max_queue=10)
+2026-05-28 23:21:54 | INFO     | rpa_bot                      | Bot is up and polling for messages
+2026-05-28 23:21:55 | INFO     | rpa_bot.handler              | Phone verification requested for 'Samuel Villanueva' (chat_id=8235194237)
+2026-05-28 23:22:04 | INFO     | rpa_bot.handler              | User 'Samuel Villanueva' verified with phone ***3474
+2026-05-28 23:22:17 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 23:22:18 | INFO     | rpa_bot.handler              | Menu sent to 'Samuel Villanueva' (1 processes)
+2026-05-28 23:22:20 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Samuel Villanueva' — queue size: 1/10
+2026-05-28 23:22:20 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Samuel Villanueva'
+2026-05-28 23:22:21 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Samuel Villanueva'
+2026-05-28 23:22:31 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=True
+2026-05-28 23:22:53 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 23:22:54 | INFO     | rpa_bot.handler              | Menu sent to 'Samuel Villanueva' (1 processes)
+2026-05-28 23:22:55 | INFO     | rpa_bot.handler              | No process matched '3' for 'Samuel Villanueva'
+2026-05-28 23:29:02 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 23:29:02 | INFO     | rpa_bot                      | Starting RPA Bot
+2026-05-28 23:29:02 | INFO     | rpa_bot                      | RPA folder   : RPAs
+2026-05-28 23:29:02 | INFO     | rpa_bot                      | UiRobot path : C:\Program Files\UiPathPlatform\Studio\26.0.193-cloud.23060\UiRobot.exe
+2026-05-28 23:29:02 | INFO     | rpa_bot                      | Max queue    : 10
+2026-05-28 23:29:02 | INFO     | rpa_bot                      | Log level    : INFO
+2026-05-28 23:29:02 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 23:29:03 | INFO     | rpa_bot.handler              | Handlers registered
+2026-05-28 23:29:03 | INFO     | rpa_bot                      | Press Ctrl+C to stop
+2026-05-28 23:29:04 | INFO     | rpa_bot.rpa_service          | RPA worker started (max_queue=10)
+2026-05-28 23:29:04 | INFO     | rpa_bot                      | Bot is up and polling for messages
+2026-05-28 23:29:11 | INFO     | rpa_bot.handler              | Phone verification requested for 'Samuel Villanueva' (chat_id=8235194237)
+2026-05-28 23:29:13 | INFO     | rpa_bot.handler              | User 'Samuel Villanueva' verified with phone ***3474
+2026-05-28 23:29:17 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 23:29:17 | INFO     | rpa_bot.handler              | Menu sent to 'Samuel Villanueva' (1 processes)
+2026-05-28 23:29:19 | INFO     | rpa_bot.handler              | Index 2 not found for 'Samuel Villanueva'
+2026-05-28 23:29:24 | INFO     | rpa_bot.handler              | Index 3 not found for 'Samuel Villanueva'
+2026-05-28 23:29:26 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Samuel Villanueva' — queue size: 1/10
+2026-05-28 23:29:26 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Samuel Villanueva'
+2026-05-28 23:29:26 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Samuel Villanueva'
+2026-05-28 23:29:37 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=True
+2026-05-28 23:29:51 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 23:29:52 | INFO     | rpa_bot.handler              | Menu sent to 'Samuel Villanueva' (1 processes)
+2026-05-28 23:29:56 | INFO     | rpa_bot.handler              | Fuzzy match 'Testing' → 'TestingProcess' (90%) for 'Samuel Villanueva'
+2026-05-28 23:29:56 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Samuel Villanueva' — queue size: 1/10
+2026-05-28 23:29:56 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Samuel Villanueva'
+2026-05-28 23:29:56 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Samuel Villanueva'
+2026-05-28 23:30:05 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=True
+2026-05-28 23:30:15 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 23:30:17 | INFO     | rpa_bot.handler              | Menu sent to 'Samuel Villanueva' (1 processes)
+2026-05-28 23:30:22 | INFO     | rpa_bot.handler              | Fuzzy match 'Proc' → 'TestingProcess' (90%) for 'Samuel Villanueva'
+2026-05-28 23:30:22 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Samuel Villanueva' — queue size: 1/10
+2026-05-28 23:30:22 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Samuel Villanueva'
+2026-05-28 23:30:23 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Samuel Villanueva'
+2026-05-28 23:30:31 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=True
+2026-05-28 23:31:13 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 23:31:13 | INFO     | rpa_bot                      | Starting RPA Bot
+2026-05-28 23:31:13 | INFO     | rpa_bot                      | RPA folder   : RPAs
+2026-05-28 23:31:13 | INFO     | rpa_bot                      | UiRobot path : C:\Program Files\UiPathPlatform\Studio\26.0.193-cloud.23060\UiRobot.exe
+2026-05-28 23:31:13 | INFO     | rpa_bot                      | Max queue    : 10
+2026-05-28 23:31:13 | INFO     | rpa_bot                      | Log level    : INFO
+2026-05-28 23:31:13 | INFO     | rpa_bot                      | ============================================================
+2026-05-28 23:31:14 | INFO     | rpa_bot.handler              | Handlers registered
+2026-05-28 23:31:14 | INFO     | rpa_bot                      | Press Ctrl+C to stop
+2026-05-28 23:31:15 | INFO     | rpa_bot.rpa_service          | RPA worker started (max_queue=10)
+2026-05-28 23:31:15 | INFO     | rpa_bot                      | Bot is up and polling for messages
+2026-05-28 23:31:18 | INFO     | rpa_bot.handler              | Phone verification requested for 'Samuel Villanueva' (chat_id=8235194237)
+2026-05-28 23:31:20 | INFO     | rpa_bot.handler              | User 'Samuel Villanueva' verified with phone ***3474
+2026-05-28 23:31:23 | INFO     | rpa_bot.repository           | Loaded 1 package(s) from 'RPAs'
+2026-05-28 23:31:24 | INFO     | rpa_bot.handler              | Menu sent to 'Samuel Villanueva' (1 processes)
+2026-05-28 23:31:27 | INFO     | rpa_bot.handler              | Fuzzy match 'Proc' → 'TestingProcess' (90%) for 'Samuel Villanueva'
+2026-05-28 23:31:27 | INFO     | rpa_bot.rpa_service          | Enqueued 'TestingProcess' for 'Samuel Villanueva' — queue size: 1/10
+2026-05-28 23:31:27 | INFO     | rpa_bot.rpa_service          | Starting process 'TestingProcess' requested by 'Samuel Villanueva'
+2026-05-28 23:31:27 | INFO     | rpa_bot.handler              | Process 'TestingProcess' enqueued for 'Samuel Villanueva'
+2026-05-28 23:31:37 | INFO     | rpa_bot.rpa_service          | Process 'TestingProcess' finished — success=True

@@ -34,7 +34,7 @@ def main() -> None:
     session_service = SessionService()
 
     # Telegram Application
-    async def on_startup(application: Application) -> None:  # type: ignore[type-arg]
+    async def on_startup(application: Application) -> None:
         rpa_service.start()
         logger.info("Bot is up and polling for messages")
 
