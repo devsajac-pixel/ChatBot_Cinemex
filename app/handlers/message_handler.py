@@ -331,17 +331,39 @@ class BotHandlers:
             )
 
         async def on_complete(task: QueuedTask, success: bool, output: str) -> None:
-            icon = "✅" if success else "❌"
-            status = "completado exitosamente" if success else "finalizado con error"
-            msg = f"{icon} <b>{task.process.name}</b> {status}."
-            if not success and output:
-                snippet = output[:400]
-                msg += f"\n\n<pre>{snippet}</pre>"
+            if success:
+                await bot.send_message(
+                    chat_id=task.chat_id,
+                    text=f"✅ <b>{task.process.name}</b> completado exitosamente.",
+                    parse_mode="HTML",
+                )
+                return
+
+            snippet = output[:400] if output else "Sin detalles."
+
             await bot.send_message(
                 chat_id=task.chat_id,
-                text=msg,
+                text=(
+                    f"❌ <b>{task.process.name}</b> finalizó con error.\n"
+                    "Ya se notificó al equipo de soporte.\n\n"
+                    f"<pre>{snippet}</pre>"
+                ),
                 parse_mode="HTML",
             )
+
+            support_ids = self._settings.support_chat_ids_list
+            if support_ids:
+                support_msg = (
+                    f"🚨 <b>Fallo en RPA</b>\n"
+                    f"Proceso: <code>{task.process.name}</code>\n"
+                    f"Solicitado por: <b>{task.username}</b>\n\n"
+                    f"<pre>{snippet}</pre>"
+                )
+                for cid in support_ids:
+                    try:
+                        await bot.send_message(chat_id=cid, text=support_msg, parse_mode="HTML")
+                    except Exception as exc:
+                        logger.warning("No se pudo notificar al soporte (chat_id=%s): %s", cid, exc)
 
         enqueued = await self._rpa.enqueue(
             process=process,

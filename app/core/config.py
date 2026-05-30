@@ -34,9 +34,24 @@ class Settings(BaseSettings):
     # Umbral de similitud para búsqueda fuzzy (0-100). 70 = 70% de coincidencia mínima
     fuzzy_threshold: int = 70
 
+    # IDs de chat de Telegram del equipo de soporte, separados por comas
+    support_chat_ids: str = ""
+
     # ------------------------------------------------------------------
     # Parsed properties
     # ------------------------------------------------------------------
+
+    @property
+    def support_chat_ids_list(self) -> List[int]:
+        result = []
+        for part in self.support_chat_ids.split(","):
+            part = part.strip()
+            if part:
+                try:
+                    result.append(int(part))
+                except ValueError:
+                    pass
+        return result
 
     @property
     def allowed_phones_list(self) -> List[str]:
